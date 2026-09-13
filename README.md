@@ -46,7 +46,7 @@
 - Go — версия 1.25.5 или выше
 - Git — если вы клонируете репозиторий
 
-Сборка:
+Команды для компиляции:
 ```bash
     git clone https://github.com/lock3d9/btl-official-ru.git
     cd btl-offical-ru
