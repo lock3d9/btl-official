@@ -1,0 +1,11 @@
+version: '3'
+
+vars:
+  COUNTER_FILE: "build_counter.txt"
+  VERSION: '{{.VERSION | default "00.1"}}'
+
+tasks:
+  build:
+    desc: "build blt"
+    cmds:
+      - powershell -NoProfile -ExecutionPolicy Bypass -File ./build.ps1 -Version "{{.VERSION}}"
